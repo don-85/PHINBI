@@ -16,6 +16,56 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
 
 </head>
+<style>
+    .about {
+    background-image: url('images/p6.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 20px;
+}
+
+.about_container {
+    display: flex;
+    gap: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Makes it responsive */
+}
+
+.main_content_about {
+    flex: 1 1 60%;
+}
+
+.main_content_about h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.main_content_about p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 2rem;
+}
+
+.video_section {
+    flex: 1 1 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.video_section video {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+</style>
 <body>
     <!-- ----------------------------------------NAVBAR----------------------------------------------------->
     <nav class="nav nav_top">
@@ -37,26 +87,40 @@
     </div>
     <!-- -------------------------------------------ABOUT US--------------------------------------------------------->
 
-    <div class="about" style="background-image: url('images/p6.jpg'); background-size: cover; background-position: center; color: white; padding: 60px 20px;">
-    <div class="main_content_about" style="background: rgba(0, 0, 0, 0.6); padding: 30px; border-radius: 10px;">
-        <h2 style="text-align: center; font-size: large;">What We Do?</h2>
-        <p>
-            At Phinbii Tovar Foundation, our mission is to uplift the lives of vulnerable children and communities through meaningful interventions and long-term support.
-        </p>
-        <p>
-            We ensure that every child has access to basic needs nutrition, clean water, shelter, and healthcare while supporting families to create nurturing environments.
-        </p>
-        <p>
-            Education is a key pillar. We provide tuition support, school supplies, and learning resources to help children thrive academically.
-        </p>
-        <p>
-            We also care for the elderly by offering dignity, healthcare, and companionship, acknowledging their value in our communities.
-        </p>
-        <p>
-            Join us in creating lasting change through our programs, donation drives, and community outreach across Uganda and beyond.
-        </p>
+    <div class="about">
+    <div class="about_container">
+        <div class="main_content_about">
+            <h2>What We Do?</h2>
+            <p>
+                At Phinbii Tovar Foundation, our mission is to uplift the lives of vulnerable children and communities through meaningful interventions and long-term support.
+            </p>
+            <p>
+                We ensure that every child has access to basic needs — nutrition, clean water, shelter, and healthcare — while supporting families to create nurturing environments.
+            </p>
+            <p>
+                Education is a key pillar. We provide tuition support, school supplies, and learning resources to help children thrive academically.
+            </p>
+            <p>
+                We also care for the elderly by offering dignity, healthcare, and companionship, acknowledging their value in our communities.
+            </p>
+            <p>
+                Join us in creating lasting change through our programs, donation drives, and community outreach across Uganda and beyond.
+            </p>
+        </div>
+
+        <div class="video_section">
+            <video controls>
+                <source src="videos/v3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="videos/v4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </div>
 </div>
+
 
     <!-- --------------------------------------------HOW WE HELP--------------------------------------------------------->
     <div class="product product_about" style="background-image: url(images/p4.jpg);">
