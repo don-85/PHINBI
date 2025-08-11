@@ -80,20 +80,6 @@ nav.nav_top {
 body {
   margin-top: 80px; /* Adjust based on nav height */
 }
-.video_section {
-    overflow: auto; /* Ensures container expands with floated content */
-    padding: 10px;
-}
-
-.video_section video {
-    float: right; /* Floats videos to the right */
-    margin-left: 15px; /* Space between videos */
-    margin-bottom: 15px;
-    width: 320px; /* Adjust size as needed */
-    height: auto;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-}
 
 
 .main
